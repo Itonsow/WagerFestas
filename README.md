@@ -19,15 +19,15 @@ cp .env.example .env
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
-APP_NAME="WagerFestas"
+APP_NAME=EspecializaTi
 APP_URL=http://localhost:8989
 
 DB_CONNECTION=mysql
 DB_HOST=db
 DB_PORT=3306
-DB_DATABASE=wagerfestas_db
-DB_USERNAME=wagerfestas
-DB_PASSWORD=12345
+DB_DATABASE=nome_que_desejar_db
+DB_USERNAME=nome_usuario
+DB_PASSWORD=senha_aqui
 
 CACHE_DRIVER=redis
 QUEUE_CONNECTION=redis
